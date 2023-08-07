@@ -1,0 +1,114 @@
+<head>
+    <style>
+    .bg{
+        height: 100%;
+        background: url(../img/kv.png) no-repeat center/cover;
+      }
+      
+      .text-block{
+        width: 100%;
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      
+      .text-black{
+        display: none;
+      }
+      
+      .text{
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+      }
+      
+      .text-white .text{
+        color: #fff;
+      }
+      
+      .text-black .text{
+        color: #222;
+      }
+      
+      @media screen and (min-width: 560px) {
+      
+        .text-black{
+          display: block;
+        }
+      
+        .text-inner{
+          width: 50%;
+          overflow: hidden;
+        }
+      
+        .text{
+          font-size: 40px;
+        }
+      
+        .text-black .text{
+          width: 200%;
+        }
+      
+      }
+      
+      @media screen and (min-width: 960px) {
+      
+        .bg{
+          width: 80%;
+          height: 80%;
+          position: relative;
+          overflow: hidden;
+          margin-left: auto;
+          z-index: 1;
+        }
+      
+        .text-block{
+          transform: none;
+        }
+      
+        .text-white{
+          bottom: 12.5%;
+          left: -12.5%;
+        }
+      
+        .text-black{
+          width: auto;
+          bottom: 30%;
+          left: 10%;
+        }
+      
+        .text-inner{
+          width: 100%;
+        }
+      
+        .text{
+          font-size: 54px;
+          text-align: left;
+          letter-spacing: .1em;
+        }
+      
+        .text-black .text{
+          width: 100%;
+        }
+      
+      }
+    </style>
+</head>
+
+<div class="kv">
+    <div class="bg">
+      <div class="text-block text-white">
+        <p class="text">webkore<br>Text Split Layout</p>
+      </div>
+    </div>
+  
+    <div class="text-block text-black">
+      <div class="text-inner">
+        <p class="text" aria-hidden="true">webkore<br>Text Split Layout</p>
+      </div>
+    </div>
+  </div>
+

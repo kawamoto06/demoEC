@@ -24,6 +24,9 @@ h2{
     margin: 0px;
     font-weight: normal;
 }
+p{
+    margin: 0px;
+}
 
 
 button{
@@ -161,17 +164,30 @@ body {
     position:relative;
 }
 
+
 .main3_text_box{
     position: absolute;
     top: 151px;
     left: 510px;
 }
 
+.main3_text_color,
 .main3_text{
     font-size: 74px;
-    color: #C7C287;
+    overflow: hidden;
     white-space: nowrap;
+    
 }
+
+.main3_text_color span,
+.main3_tex span{
+    position: absolute;
+}
+.main3_text_color span {
+  color: #C7C287;
+}
+
+
 
 .main3_sub_text_left{
     font-size: 62px;
