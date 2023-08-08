@@ -78,8 +78,9 @@ button{
 
 .header_nav_box{
     display: flex;
-    margin: 19px 0px;
+    margin: 19px 70px;
     justify-content: space-around;
+
 }
 
 :root {
@@ -93,8 +94,11 @@ button{
 
 .menu {
     list-style: none;
-    width: 100%;
     height: auto;
+    position: absolute;
+    width: 100%;
+    top: 57px;
+    left: 0px;
     padding: 0 0 10px 0;
     clear: both;
     transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
