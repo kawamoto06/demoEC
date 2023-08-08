@@ -164,30 +164,43 @@ body {
     position:relative;
 }
 
-
-.main3_text_box{
-    position: absolute;
-    top: 151px;
-    left: 510px;
-}
-
-.main3_text_color,
-.main3_text{
+.main3_container {
+    margin-top: 30px;
+    max-width: 800px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .main3_text_color,
+  .main3_text {
     font-size: 74px;
+    height: calc(100% - 40%);
     overflow: hidden;
-    white-space: nowrap;
-    
-}
-
-.main3_text_color span,
-.main3_tex span{
     position: absolute;
-}
-.main3_text_color span {
-  color: #C7C287;
-}
-
-
+    top: 25%;
+    left: 50%;
+  }
+  .main3_text_color {
+    width: 20%; 
+  }
+  .main3_text {
+    margin-left: 20%;
+    width: 100%;
+  }
+  .main3_text_color span,
+  .main3_text span {
+    position: absolute;
+  }
+  .main3_text_color span {
+    color: #FFFFFF;
+  }
+  .main3_text span {
+    color: #C7C287;
+    left: -20%;
+  }
+  .main3_text_color span {
+    width: 500%;
+  }
 
 .main3_sub_text_left{
     font-size: 62px;
@@ -196,10 +209,19 @@ body {
 
 .main3_sub_text_box{
     display: flex;
+    height: calc(100% - 40%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
 }
 
 .main3_sub_text_right{
+    font-size: 40px;
     margin-top: 23px;
+}
+
+.main3_sub_text_left{
+    font-size: 62px;
 }
 
 .main3_sub_text_under{
