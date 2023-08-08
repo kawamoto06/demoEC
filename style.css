@@ -48,6 +48,7 @@ button{
     height: 57px;
     width: 100%;
     padding: 0px 70px;
+    z-index: 10;
 
 }
 
@@ -413,8 +414,14 @@ body {
     display: flex;
     position: absolute;
     right: 70px;
+    bottom: 31px;
     align-items: center;
     justify-content: space-around;
     text-align: justify;
     text-align-last: justify;
+} 
+
+.footer_nav_box li{
+    margin-right: 23px;
+    font-size: 12px;
 }
