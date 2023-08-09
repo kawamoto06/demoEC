@@ -275,13 +275,16 @@ body {
     margin: 0;
     width: 100%;
  }  
+
 .main{
     width: 100%;
     height: 100%;
 }
+
 .main_photo{
     width: 100%;
     margin-bottom: 23px;
+
 }
 
 .border{
@@ -556,6 +559,35 @@ body {
 }
 .Pagination > * + * {
   margin-left: 8px;
+}
+
+/*show.html*/
+.show_text_box a.yellow{
+  color: #141414;
+  font-size: 29px;
+  margin-bottom: 8px;
+
+}
+
+.show_box{
+  padding-top: 57px;
+  margin: 0px 70px;
+}
+
+.show_sub_box{
+  display: flex;
+  margin-top: 83px;
+}
+
+.show_img{
+  width: 500px;
+  height: auto;
+  
+
+}
+
+.show_text_box{
+  margin-left: 48px;
 }
 
 
