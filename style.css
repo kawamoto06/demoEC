@@ -594,16 +594,58 @@ body {
   margin-left: 48px;
 }
 
+.slick-dots li {
+  margin: 0 25px; 
+  width: 70px;
+  height: 5px;
+}
+.slick-dots li button:before {
+  content:'';
+  width: 91px;
+  height: 4px;
+  background: #DCDCDC;
+  opacity: 1;
+  margin-right: 12px;
+}
+.slick-dots li.slick-active button:before{
+  background: #141414;
+}
+
+.slick-dots{
+	bottom: -70px!important;
+}
 
 
 @media screen and (max-width:375px) {
 
-main{
-  width: 100%;
-  height: 100%;
-
+	.header{
+    width: 375px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
   }
-body{
+  .title_box{
+    width: 100px;
+    margin-right: 22.5px;
+  }
+
+  .title img{
+    width: 100px;
+  }
+  .search_box{
+    width: 137.5px;
+  }
+  .search_form{
+    width: 100px;
+  }
+
+  .item_list{
+    display: none;
+  }
+
+  .main_photo{}
+
+    body{
         width: 100%;
     }
 
