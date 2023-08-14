@@ -277,6 +277,7 @@ body {
     padding: 0;
  }  
 
+
 .main{
     width: 100%;
     height: 100%;
@@ -287,6 +288,7 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
 }
 .main_photo_box{
   padding-top: 57px;
+  width: 100%;
 }
 
 .main_photo{
@@ -634,7 +636,6 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
   }
 
   .header{
-    width: 375px;
     padding: 0px 10px;
     display: flex;
     justify-content: space-between;
