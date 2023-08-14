@@ -665,10 +665,15 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
 
     .main{
       margin: 0;
+      width: auto;
     }
 
+    .slick01 li img {
+        content: url(image/sp-image.png);
+    }
+
+
     .main2{
-      padding: 0 25px;
       display: block;
     }
 
@@ -690,13 +695,14 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
 
     .main2_photo_box{
       margin: auto;
+      position: relative;
     }
 
     .main2_photo_1{
       width: 165px;
       height: 205px;
       position: absolute;
-      top: 440px;
+      top: -480px;
       right: 30px;
     }
 
@@ -706,18 +712,29 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
       float: left;
     }
 
+    .main2_text_box{
+      width: auto;
+      margin-right: 0;
+      padding: 0 25px;
+    }
+
+
     .main2_sub_text{
       width: 100px;
       height: 100px;
     }
 
     .main2_sub_text{
-      margin-top: 275px;
+      margin-top: 305px;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      width: auto;
     }
 
     .main2_button{
-      display: inline-block;
-      text-align: center;
+      display: flex;
+      justify-content: center;
     }
 
     .main3{
