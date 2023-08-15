@@ -636,13 +636,17 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
   }
 
   .header{
-    padding: 0px 10px;
     display: flex;
-    justify-content: space-between;
   }
   .title_box{
     width: 100px;
     margin-right: 22.5px;
+  }
+
+  .title{
+    padding-top: 17px;
+    padding-left: 9px;
+
   }
 
   .title img{
@@ -659,7 +663,30 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
     display: none;
   }
 
- 
+  .navicon {
+    width: 15px;
+    height: 1px;
+  }
+
+  .navicon:after{
+    bottom: 5px;
+  }
+
+  .navicon:before{
+    top: 5px;
+  }
+
+  .header_nav_box li{
+    margin-right: 10px;
+  }
+
+  .category_box{
+    float: left;
+  }
+
+  .menu_box{
+    margin: 0 43px;
+  }
 
     .main{
       margin: 0;
