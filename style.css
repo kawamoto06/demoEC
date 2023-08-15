@@ -691,6 +691,12 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
     .main{
       margin: 0;
       width: auto;
+      padding-bottom: 70px;
+      background-image: repeating-linear-gradient(157deg, transparent, transparent 482px, #F6F6F6 0px, #F6F6F6 853px );
+    }
+
+    .main_photo_box{
+      padding-top: 20px;
     }
 
 
