@@ -501,6 +501,11 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
 }
 
 /*item_indexページ*/
+.index_main{
+  width: 100%;
+    height: 100%;
+    padding-bottom: 122px;
+}
 .main_title{
   padding-top:  57px;
 }
@@ -511,7 +516,7 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
 
 }
 
-.cotent_category li{
+.cotent_category a{
   border-radius: 30px;
   border: 1px solid #707070;
   color: #141414;
@@ -520,7 +525,7 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
   padding: 14px 24px;
   font-family: 'Noto Sans JP', sans-serif;
 }
-.cotent_category #black{
+.cotent_category  #black{
   border-radius: 30px;
   border: 1px solid #707070;
   color: #FFFFFF;
@@ -570,6 +575,12 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
 }
 
 /*show.html*/
+.show_main{
+  width: 100%;
+    height: 100%;
+    padding-bottom: 122px;
+}
+
 .show_text_box a.yellow{
   color: #141414;
   font-size: 29px;
@@ -638,6 +649,32 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
   .header{
     display: flex;
   }
+
+
+  .menu_left p{
+    font-size: 5px;
+  }
+
+
+  .category_wear{
+    margin-right: 13px;
+    font-size: 1px;
+  }
+
+  .category_accessory{
+    margin-right: 13px;
+    font-size: 1px;
+  }
+  .category_beauty{
+    font-size: 1px;
+  }
+
+  .sale_box div{
+    width: 183px;
+    height: auto;
+  }
+
+
   .title_box{
     width: 100px;
     margin-right: 22.5px;
@@ -680,12 +717,10 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
     margin-right: 10px;
   }
 
-  .category_box{
-    float: left;
-  }
 
   .menu_box{
     margin: 0 43px;
+    display: block;
   }
 
     .main{
@@ -861,6 +896,19 @@ background-image:repeating-linear-gradient(160deg, transparent, transparent 782p
       flex-wrap: wrap;
       padding: 0 25px;
     }
+
+
+  .show_sub_box{
+    display: block;
+
+  }
+  .show_text_box{
+    margin-left: 0;
+  }
+
+  .cotent_category{
+    display: none;
+  }
 
 
   .footer{
